@@ -1,0 +1,15 @@
+from mcpi.minecraft import Minecraft
+mc = Minecraft.create()
+import time
+mc.player.setTilePos(10,120 ,500 )
+time.sleep(10)
+mc.player.setTilePos(30,120 ,100 )
+time.sleep(10)
+mc.player.setTilePos(50,120 ,-1000 )
+time.sleep(10)
+mc.player.setTilePos(70,120 ,0 )
+time.sleep(10)
+mc.player.setTilePos(90,120 ,-1 )
+time.sleep(10)
+mc.player.setTilePos(110,120 ,-100 )
+time.sleep(10)
